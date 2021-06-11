@@ -24,5 +24,11 @@
       "@controllers/*": ["./src/controllers/*"],
       "@config/*": ["./src/config/*"]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "jest.config.ts"
+  ]
 }
